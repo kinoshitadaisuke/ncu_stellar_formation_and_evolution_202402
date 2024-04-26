@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2024/04/26 09:37:24 (UT+8) daisuke>
+# Time-stamp: <2024/04/26 10:08:22 (UT+8) daisuke>
 #
 
 # importing argparse module
@@ -68,7 +68,7 @@ if not ( (path_output.suffix == '.eps') \
 
 # constants
 G  = scipy.constants.G
-pi = scipy.pi
+pi = scipy.constants.pi
 K0 = 1.36 * 10**4  # for solar composition
 Bn = 0.206         # for n=1.5
 Ms = 1.99 * 10**30 # solar mass
